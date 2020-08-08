@@ -175,6 +175,11 @@ body{
 	margin-right: 300px;
 }
 
+#ssslogo .row{
+	display: flex;
+	align-items: center;
+}
+
 #cdbody .row{
 	display: flex;
 	align-items: center;
