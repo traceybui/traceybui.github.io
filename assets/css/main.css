@@ -72,6 +72,40 @@ body{
     to   { opacity: 1; }
 }
 
+
+/*Vertical Sliding*/
+.slidingVertical{
+	display: inline;
+}
+.slidingVertical span{
+	animation: topToBottom 7.5s linear infinite 0s;
+	-ms-animation: topToBottom 7.5s linear infinite 0s;
+	-webkit-animation: topToBottom 7.5s linear infinite 0s;
+	color: blue;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+}
+.slidingVertical span:nth-child(2){
+	animation-delay: 2.5s;
+	-ms-animation-delay: 2.5s;
+	-webkit-animation-delay: 2.5s;
+}
+.slidingVertical span:nth-child(3){
+	animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	-webkit-animation-delay: 5s;
+}
+
+.sentence{
+     color: blue;
+     text-align: left;
+}
+
+.CVbutton{
+	padding-top: 150px;
+}
+
 /* Nav bar */
 #top{
 	position: fixed;
@@ -3635,7 +3669,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 2.25em 1.5em;
+				padding: 2.25em 4.5em;
 			}
 
 				#header h1 {
@@ -3679,7 +3713,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4.5em 1.5em;
+				padding: 4.5em 4.5em;
 			}
 
 				#header h1 br {
