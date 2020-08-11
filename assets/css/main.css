@@ -78,9 +78,9 @@ body{
 	display: inline;
 }
 .slidingVertical span{
-	animation: topToBottom 7.5s linear infinite 0s;
-	-ms-animation: topToBottom 7.5s linear infinite 0s;
-	-webkit-animation: topToBottom 7.5s linear infinite 0s;
+	animation: topToBottom 9s linear infinite 0s;
+	-ms-animation: topToBottom 9s linear infinite 0s;
+	-webkit-animation: topToBottom 9s linear infinite 0s;
 	color: blue;
 	opacity: 0;
 	overflow: hidden;
