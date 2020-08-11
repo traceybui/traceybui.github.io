@@ -72,36 +72,6 @@ body{
     to   { opacity: 1; }
 }
 
-
-/*Vertical Sliding*/
-.slidingVertical{
-	display: inline;
-}
-.slidingVertical span{
-	animation: topToBottom 9s linear infinite 0s;
-	-ms-animation: topToBottom 9s linear infinite 0s;
-	-webkit-animation: topToBottom 9s linear infinite 0s;
-	color: blue;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
-}
-.slidingVertical span:nth-child(2){
-	animation-delay: 2.5s;
-	-ms-animation-delay: 2.5s;
-	-webkit-animation-delay: 2.5s;
-}
-.slidingVertical span:nth-child(3){
-	animation-delay: 5s;
-	-ms-animation-delay: 5s;
-	-webkit-animation-delay: 5s;
-}
-
-.sentence{
-     color: blue;
-     text-align: left;
-}
-
 .CVbutton{
 	padding-top: 150px;
 }
