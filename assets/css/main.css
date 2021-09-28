@@ -238,7 +238,7 @@ font-family: Merriweather;
 	background: #092C30;
 }
 .bg6 {
-	background: #e84d46;
+	background: white;
 }
 
 ol, ul {
@@ -3098,8 +3098,8 @@ input, select, textarea {
 /* Main Projectd*/
 
 	#mainprojects {
-		margin-left: 50%;
-	    max-width: 54em;
+	    margin-left: 50%;
+	    max-width: 100%;
 	    padding: 0em;
 	    width: calc(100% - 50%);
 	}
