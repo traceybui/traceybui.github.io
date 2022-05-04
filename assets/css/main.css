@@ -2895,6 +2895,10 @@ input, select, textarea {
 						-ms-transform: scale(1.0);
 						transform: scale(1.0);
 					}
+			
+				.tiles article > a h2 p{
+					display: none;
+				}
 
 		}
 
