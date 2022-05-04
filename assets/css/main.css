@@ -2896,9 +2896,6 @@ input, select, textarea {
 						transform: scale(1.0);
 					}
 			
-				.tiles article > a h2 p{
-					display: none;
-				}
 
 		}
 
@@ -2913,9 +2910,6 @@ input, select, textarea {
 					margin: 1.25em 0 0 0;
 				}
 			
-					.tiles article > a h2 p{
-					display: none;
-				}
 
 		}
 
