@@ -228,7 +228,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			h1 {
-				font-size: 1.5em;
+				font-size: 2em;
 				margin: 0 0 1em 0;
 			}
 			.astk {
@@ -241,7 +241,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			h1 {
-				font-size: 1.5em;
+				font-size: 2em;
 			}
 
 				.astk {
@@ -2907,6 +2907,10 @@ input, select, textarea {
 				.tiles article {
 					width: 100%;
 					margin: 1.25em 0 0 0;
+				}
+			
+					.tiles article > a h2 p{
+					display: none;
 				}
 
 		}
