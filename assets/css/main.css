@@ -3049,12 +3049,16 @@ input, select, textarea {
 		}
 
 /* Nav bar */
-
 .topnav {
   position: sticky;
   top: 0;
   z-index: 999;
-  background: rgba(254, 253, 250, 0.85);
+  background: rgba(254, 253, 250, 0.7);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  max-width: 68em;
+  margin: 0 auto;
+  padding: 0 2.5em;
 }
 
 .topnav a {
