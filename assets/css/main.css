@@ -2811,12 +2811,11 @@ input, select, textarea {
 				height: 320px;
 				overflow: hidden;
 				border-radius: 20px;
-				border: 2px solid #D8D1BD;
 
 			}
 
 				.tiles article:hover > .image {
-				border-radius: 22px;
+				border-radius: 20px;
 				border: 2px solid #013014;
 			}
 
