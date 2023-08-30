@@ -292,16 +292,29 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			h1 {
-				font-size: 2em;
-				margin: 0 0 1em 0;
-			}
-			.astk {
-   		 font-size: 2rem;
+		h1 {
+		font-size: 1.5em;
+		margin: 0 0 1em 0;
+		}
+
+		.astk {
+   		 font-size: 1.6rem;
    		}
-}
+
+   		.astk1 {
+   		 font-size: 1.6rem;
+   		}
+
+   		.astk2 {
+   		 font-size: 1.6rem;
+   		}
+
+   		.astk3 {
+   		 font-size: 1.6rem;
+   			}
 
 		}
+
 
 		@media screen and (max-width: 360px) {
 
