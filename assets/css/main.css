@@ -153,9 +153,9 @@ input, select, textarea {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  width: 180px;
+  width: 140px;
   top: 100%;
-  left:0%;
+  left: -100%;
 	}
 }
 
