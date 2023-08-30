@@ -194,7 +194,7 @@ input, select, textarea {
   position: relative;
   display: inline-block;
   color: #013014;
-  font-family: 'DM Serif Display', serif;
+  font-family: 'DM Serif Display', 'Source Sans 3', serif;
   font-size: 1em;
   	-moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
     -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
@@ -210,7 +210,7 @@ input, select, textarea {
 }
 	body, input, select, textarea {
 		color: #656270;
-		font-family: 'DM Serif Display', serif;
+		font-family: 'DM Serif Display', 'Source Sans 3', serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
