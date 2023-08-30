@@ -3261,11 +3261,20 @@ padding-right:60px
 	}
 
 	#nextproject ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-align: justify;
-  }
+		    margin: 0;
+		    padding: 0;
+		    list-style-type: none;
+		    text-align: justify;
+		  }
+
+			  	@media screen and (max-width: 736px) {
+
+					#nextproject ul {
+					    text-align: center;
+					    display: grid;
+			 		 }
+
+				}
 
 
 	#nextproject ul:after {
