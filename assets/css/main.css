@@ -3046,6 +3046,17 @@ input, select, textarea {
 					display: none;
 				}
 
+					.tiles article > .image {
+					opacity: 0;
+				}
+
+					.tiles article > a {
+					border-radius: 22px;
+					border: 2px solid #013014;
+					background-color: #FEFDFA;
+
+				}
+
 		}
 
 /* Nav bar */
