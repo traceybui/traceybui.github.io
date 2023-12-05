@@ -102,6 +102,11 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+/* Disabled project link*/
+	.disabled-link {
+  pointer-events: none;
+}
+
 /* Slideshow */
 .slideshow-container {
   position: relative;
