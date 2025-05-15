@@ -3318,16 +3318,16 @@ padding-right:60px
 		margin-right: auto;
 	}
 
-	#nextproject ul {
+#nextproject ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    text-align: justify;
+    text-align: center;
   }
 
-			  	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 736px) {
 
-					#nextproject ul {
+			#nextproject ul {
 			    text-align: center;
 			    display: grid;
 			 			 }
@@ -3335,16 +3335,17 @@ padding-right:60px
 					}
 
 
-	#nextproject ul:after {
+#nextproject ul:after {
     content: "";
     width: 100%;
     display: inline-block;
 }
 
 	#nextproject li {
-	    display: inline-block;
+	   display: inline-block;
+	   padding-left: 30px;
+ 	   padding-right: 30px;
 	}
-
 	#nextproject a {
 	    color: #D8D1BD;
 	    border-bottom: none;
