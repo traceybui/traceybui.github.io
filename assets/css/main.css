@@ -435,9 +435,27 @@ input, select, textarea {
     margin: 0 0 1em 0;
 	}
 
+	h7 {
+	font-size: 1.2em;
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 1.8;
+    font-weight: 550;
+    margin: 0 0 1em 0;
+	}
+
 	.caption {
     text-align: center;
     padding-top: 40px;
+}
+
+	.captiontiny {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1em;
+    color: #5A7049;
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 1.8;
+    font-weight: 550;
 }
 
 	@media screen and (max-width: 980px) {
